@@ -1,0 +1,743 @@
+.fontroboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.fontoswarld {
+    font-family: 'Oswald', sans-serif;
+}
+
+.fontdancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* TOP HEADER */
+.datban.openningtop.float-right {
+    border-right: 1px solid #ddd;
+    float: right;
+    color: #ddd;
+    padding-right: 17px;
+}
+
+.datban {
+    border-left: 1px solid #ddd;
+    margin-left: 17px;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #ddd;
+}
+
+.datban.openningtop.float-sm-right.text-xs-center.text-sm-left {
+    border-right: 1px solid #ddd;
+    padding-right: 17px;
+}
+
+.datban {
+    padding-left: 17px;
+}
+
+.mangxh a {
+    color: #dddddd;
+    font-size: 12px;
+    padding: 0 13px;
+}
+
+.mangxh a {
+    padding-left: 0;
+}
+
+.topheader {
+    background: #222222;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+/* END TOP HEADER */
+
+
+/* MENU & LOGO */
+.datbanmenu a.nav-link.btn.btn-warning {
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-size: 13px;
+    margin-top: 37px;
+}
+
+a.nav-link {
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: -8px;
+}
+
+
+
+/* END MENU & LOGO */
+
+
+/* SLIDE */
+img.img-fluid {
+    width: 320px;
+    height: 260px;
+}
+
+button.btn.btn-warning {
+    border-radius: 0;
+    width: 165px;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.chu {
+    position: absolute;
+    color: white;
+    background: url(images/icon-1.png) no-repeat right top;
+    margin-left: 14%;
+    padding-top: 164px;
+    top: 60px;
+}
+
+.chu h2 {
+    font-size: 50px;
+}
+
+.chu p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: white;
+    width: 625px;
+}
+
+
+a.right.carousel-control {
+    right: 2%;
+}
+
+a.left.carousel-control {
+    left: 2%;
+}
+
+a.left.carousel-control,
+a.right.carousel-control {
+    transition: 0.4s;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: #6e6e6e;
+    display: block;
+    position: absolute;
+    top: 45%;
+    line-height: 40px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 95vh;
+}
+
+.carousel-inner>.carousel-item>a>img,
+.carousel-inner>.carousel-item>img,
+.img-fluid {
+    max-width: 100%;
+    height: 750px;
+}
+
+/* END SLIDE */
+
+/* CSS KHOI 3DV */
+.fontroboto {
+    font-family: 'Roboto Slab', serif;
+}
+
+.fontoswarld {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* TOP HEADER */
+.datban.openningtop.float-right {
+    border-right: 1px solid #ddd;
+    float: right;
+    color: #ddd;
+    padding-right: 17px;
+}
+
+.datban {
+    border-left: 1px solid #ddd;
+    margin-left: 17px;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #ddd;
+}
+
+.datban.openningtop.float-sm-right.text-xs-center.text-sm-left {
+    border-right: 1px solid #ddd;
+    padding-right: 17px;
+}
+
+.datban {
+    padding-left: 17px;
+}
+
+.mangxh a {
+    color: #dddddd;
+    font-size: 12px;
+    padding: 0 13px;
+}
+
+.mangxh a {
+    padding-left: 0;
+}
+
+.topheader {
+    background: #222222;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+/* END TOP HEADER */
+
+
+/* MENU & LOGO */
+.datbanmenu a.nav-link.btn.btn-warning {
+    width: 150px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-size: 13px;
+    margin-top: 31px;
+}
+
+a.nav-link {
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+}
+
+/* END MENU & LOGO */
+
+
+/* SLIDE */
+img.img-fluid {
+    width: 320px;
+    height: 260px;
+}
+
+button.btn.btn-warning {
+    border-radius: 0;
+    width: 165px;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.chu {
+    position: absolute;
+    color: white;
+    background: url(images/icon-1.png) no-repeat right top;
+    margin-left: 14%;
+    padding-top: 164px;
+    top: 60px;
+}
+
+.chu h2 {
+    font-size: 50px;
+}
+
+.chu p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: white;
+    width: 625px;
+}
+
+
+a.right.carousel-control {
+    right: 2%;
+}
+
+a.left.carousel-control {
+    left: 2%;
+}
+
+.slidemonan a.left.carousel-control,
+.slidemonan a.right.carousel-control {
+    transition: 0.4s;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0.29);
+    display: block;
+    position: absolute;
+    top: -7%;
+    line-height: 34px;
+}
+
+.slidemonan a.left.carousel-control:hover,
+.slidemonan a.right.carousel-control:hover {
+    background: #feb518;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 95vh;
+}
+
+.carousel-inner>.carousel-item>a>img,
+.carousel-inner>.carousel-item>img,
+.img-fluid {
+    max-width: 100%;
+    height: 750px;
+}
+
+/* END SLIDE */
+
+/* CSS KHOI 3DV */
+
+.badichvu a.readmore {
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding-top: 29px;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 30px;
+}
+
+.badichvu p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #777;
+    line-height: 24px;
+}
+
+.badichvu h3 a {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.badichvu {
+    padding-top: 121px;
+}
+
+li.nav-item a.nav-link {
+    padding-top: 0px;
+}
+
+/* END CSS KHOI 3DV */
+
+
+/* KHOI MENU */
+
+
+h3.tieudechinh.fontroboto {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+span.tieudephu.fontdancing {
+    font-weight: 700;
+    font-size: 38px;
+    color: #feb518;
+}
+
+.tieudekhoimenu.text-xs-center .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tieudekhoimenu.text-xs-center {
+    display: table;
+    height: 550px;
+    margin: auto;
+}
+
+.khoimenu {
+    background: url(images/2.jpg);
+    background-size: cover;
+    color: white;
+}
+
+/* END KHOI MENU */
+
+/* KHOI THUC DON */
+
+
+.thucdonct img.img-fluid {
+    width: 90px;
+    height: 90px;
+}
+
+.thucdonct .tieudect {
+    height: 40px;
+    line-height: 40px;
+
+
+    display: block;
+    margin-top: -40px;
+}
+
+
+
+.thucdonct .noidungct {
+    position: relative;
+    height: auto;
+    padding-top: 20px;
+}
+
+.thucdonct .noidungct .noidung {
+    height: 400px;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+
+
+
+}
+
+/* END KHOI THUC DON */
+
+
+/* CSS LOC CHO KHOI THUC DON */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidemonan .row {}
+
+.slidemonan .carousel-indicators li {
+    display: none;
+}
+
+.slidemonan li.active {}
+
+.slidemonan .tencongthuc {
+    font-size: 13px;
+    color: #aaa;
+    font-family: 'Roboto Slab';
+}
+
+.tensp .tencongthuc {
+    font-size: 13px;
+    font-family: 'Roboto Slab';
+    color: #aaa;
+}
+
+.tensp .ten,
+.tensp .gia {
+    font-family: 'Oswald';
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slidemonan .left.carousel-control {
+    left: auto;
+    right: 80px;
+}
+
+.slidemonan h4 {
+    font-size: 24px;
+    padding: 10px 0;
+    font-family: 'Roboto Slab';
+    margin-left: 0px;
+}
+
+.slidemonan {
+    margin-top: 10px;
+    background: url(images/5.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+    height: 573px;
+}
+
+img.anhspslide {
+    width: 100%;
+}
+
+.sanpham {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tieudect a {
+    font-size: 16px;
+    color: #fefefe;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.tieudect a:focus {
+    color: #feb518;
+}
+
+.tenmon .duoi {
+    font-size: 13px;
+    color: #777;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 12px;
+}
+
+.tenmon span.float-xs-right {
+    background: white;
+    display: inline-block;
+    transform: translateY(5px);
+    padding-left: 5px;
+}
+
+.tenmon b.ten {
+    background: white;
+    transform: translateY(5px);
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
+
+.tenmon .tren {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    border-bottom: 1px dotted #999999;
+}
+
+.thucdonct .row .row [class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.tagnew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #feb518;
+    font-size: 11px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    padding: 4px 7px;
+}
+
+.anhmon {
+    position: relative;
+    width: 100%;
+}
+
+.col-xs-12.col-sm-6.col-md-4.motmon {
+    height: 120px;
+}
+
+/* END CSS LOC CHO KHOI THUC DON */
+
+/* XU LY GIAO DIEN CHO DI DONG */
+@media (max-width:576px) {
+    * {}
+
+    .slidemonan h4 {
+        font-size: 20px;
+    }
+
+    .slidemonan {
+        height: 300px;
+    }
+
+    .slidemonan .row {
+        padding-top: 22px;
+    }
+
+    .slidemonan a.right.carousel-control {
+        margin-top: 5px;
+        line-height: 25px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .slidemonan a.left.carousel-control {
+        margin-top: 5px;
+        line-height: 25px;
+        width: 25px;
+        height: 25px;
+        right: 40px;
+    }
+
+    .slidemonan span.icon-prev {}
+
+    .slidemonan .tencongthuc {
+        font-size: 10px;
+    }
+
+    .tensp .ten,
+    .tensp .gia {
+        font-size: 10px;
+        padding: 0 0;
+    }
+
+    .slidemonan img.anhspslide {
+        height: 50%;
+    }
+
+    .slidemonan .carousel-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    h3.tieudechinh.fontroboto {
+        font-size: 28px;
+    }
+
+    span.tieudephu.fontdancing {
+        font-size: 30px;
+    }
+
+
+    .logovamenu .navbar-nav .nav-item {
+        line-height: 2;
+    }
+
+
+
+
+
+    .badichvu {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .slide {
+        height: 380px;
+    }
+
+    a.left.carousel-control,
+    a.right.carousel-control {
+        top: 39%;
+    }
+
+
+
+    .chu h2.fontoswarld {
+        font-size: 25px;
+    }
+
+    .chu p {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .chu {
+        padding: 0;
+        top: 70px;
+        background: none;
+        margin-left: 70px;
+    }
+
+
+
+    .carousel-inner>.carousel-item>a>img,
+    .carousel-inner>.carousel-item>img,
+    .img-fluid {
+        max-width: 100%;
+        height: 300px;
+    }
+
+
+
+    .navbar-brand img {
+        margin-left: 100px;
+        height: 80px;
+    }
+
+
+
+    li.nav-item.datbanmenu a.nav-link.btn.btn-warning {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+        border-bottom: 0;
+    }
+
+    .nav a.nav-link {
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid gray;
+    }
+
+    .datban {
+        border: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px dashed #ddd;
+    }
+
+    .datban.openningtop.float-sm-right.text-xs-center.text-sm-left {
+        border-right: none;
+        padding: 0;
+    }
+
+    .topheader {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+
+/* HET XU LY GIAO DIEN CHO DI DONG */
