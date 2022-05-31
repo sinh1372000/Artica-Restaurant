@@ -85,7 +85,15 @@ a.nav-link {
     margin-top: -8px;
 }
 
-
+ .logovamenufixed {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background: white;
+    transition: 0.4s;
+  }
 
 /* END MENU & LOGO */
 
@@ -224,7 +232,8 @@ a.right.carousel-control {
 
 
 /* MENU & LOGO */
-.datbanmenu a.nav-link.btn.btn-warning {
+.datbanmenu a.nav-link.btn.btn-warning,
+.datbanform a.btn.btn-warning {
     width: 150px;
     height: 44px;
     line-height: 44px;
@@ -235,6 +244,7 @@ a.right.carousel-control {
     color: black;
     font-size: 13px;
     margin-top: 31px;
+    transition: 0.4s;
 }
 
 a.nav-link {
@@ -331,15 +341,15 @@ a.left.carousel-control {
 
 /* CSS KHOI 3DV */
 
-.badichvu a.readmore {
+.badichvu.badichvuabout a.readmore {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: #feb518;
     display: block;
     padding-top: 29px;
     font-family: 'Roboto Slab', serif;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .badichvu p {
@@ -358,10 +368,11 @@ a.left.carousel-control {
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
+    text-decoration: none;
 }
 
 .badichvu {
-    padding-top: 121px;
+    margin: 110px 0;
 }
 
 li.nav-item a.nav-link {
@@ -397,9 +408,10 @@ span.tieudephu.fontdancing {
 }
 
 .khoimenu {
-    background: url(images/2.jpg);
+    background: url(images/5.jpg);
     background-size: cover;
     color: white;
+    background-attachment: fixed;
 }
 
 /* END KHOI MENU */
@@ -420,6 +432,12 @@ span.tieudephu.fontdancing {
     display: block;
     margin-top: -40px;
 }
+
+.tieudect.text-xs-center.fontroboto a:hover {
+    color: #feb518;
+}
+
+
 
 
 
@@ -445,18 +463,11 @@ span.tieudephu.fontdancing {
 
 
 /* CSS LOC CHO KHOI THUC DON */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.slidemonan .row {}
-
 .slidemonan .carousel-indicators li {
     display: none;
 }
 
-.slidemonan li.active {}
+
 
 .slidemonan .tencongthuc {
     font-size: 13px;
@@ -486,7 +497,7 @@ span.tieudephu.fontdancing {
 
 .slidemonan h4 {
     font-size: 24px;
-    padding: 10px 0;
+    padding: 25px 0;
     font-family: 'Roboto Slab';
     margin-left: 0px;
 }
@@ -498,7 +509,8 @@ span.tieudephu.fontdancing {
     color: white;
     margin-bottom: 20px;
     padding-bottom: 70px;
-    height: 573px;
+    height: 495px;
+    margin-top: 110px;
 }
 
 img.anhspslide {
@@ -575,6 +587,8 @@ img.anhspslide {
 .anhmon {
     position: relative;
     width: 100%;
+    display: table;
+    padding-bottom: 15px;
 }
 
 .col-xs-12.col-sm-6.col-md-4.motmon {
@@ -583,9 +597,832 @@ img.anhspslide {
 
 /* END CSS LOC CHO KHOI THUC DON */
 
+/*CSS PHAN GIOI THIEU DB */
+
+.gioithieudaubep .daubepcontact .icondb {
+    background: black;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s;
+}
+
+.gioithieudaubep .daubepcontact .icondb:hover {
+    color: #feb518;
+}
+
+
+
+.gioithieudaubep p {
+    color: #777;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Roboto Slab';
+}
+
+.gioithieudaubep span.fontdancing {
+    font-size: 31px;
+    color: #feb518;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.gioithieudaubep .thongtin h2 {
+    font-size: 30px;
+    color: #333;
+}
+
+.gioithieudaubep .thongtin {
+    padding-top: 267px;
+}
+
+.gioithieudaubep img.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+/*END CSS PHAN GIOI THIEU DB */
+/* CSS SOLUGAN */
+
+
+.soluganhome {
+    padding: 230px 0;
+    background: #3e3e3e;
+    color: white;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.soluganhome.wow.fadeInUp.solugancontact {
+    margin-top: 14px;
+    background: url(images/4.jpg);
+    margin-bottom: 110px;
+    background-attachment: fixed;
+}
+
+.soluganhome span {
+    font-size: 36px;
+    color: white;
+}
+
+.soluganhome h3 {
+    font-size: 36px;
+    color: #feb518;
+}
+
+/* END CSS SOLUGAN */
+
+
+.datbanform a.btn.btn-warning {
+    font-weight: bold;
+    font-family: 'Roboto Slab';
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.datbanform a.btn.btn-warning:hover,
+.datbanmenu a.btn.btn-warning:hover {
+    color: #feb518 !important;
+    background: none;
+    border-color: #feb518;
+}
+
+.datbanform h2.text-xs-center.fontroboto {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    font-size: 22px;
+    color: #333;
+}
+
+.datbanform .col-sm-12.text-xs-center {
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.thongtindatban.fontoswarld {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.khoidatban .dtdb {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.khoidatban span.vang,
+.tintuchome span.vang {
+    color: #fec455;
+}
+
+.khoidatban p.tt,
+.khoidatban p.giodb {
+    font-size: 15px;
+    line-height: 26px;
+    color: #777;
+    padding-top: 36px;
+}
+
+.khoidatban.text-xs-center .thongtindatban h2 {
+    font-size: 33px;
+    color: #333;
+}
+
+.khoidatban.text-xs-center {
+    padding-top: 110px;
+    padding-bottom: 61px;
+}
+
+/* CSS PHAN HOI */
+
+
+b.fontdancing.nguoiviet:before {
+    content: "-";
+}
+
+.khoiphanhoi .carousel-indicators {
+    top: 50%;
+}
+
+
+
+.khoiphanhoi b.fontdancing.nguoiviet {
+    color: #feb518;
+    font-size: 25px;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.khoiphanhoi .quote {
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Roboto Slab';
+    color: white;
+}
+
+.khoiphanhoi i.fa.fa-quote-right {
+    font-size: 33px;
+    margin-bottom: 66px;
+}
+
+.khoiphanhoi {
+    margin: 110px;
+    background: url(images/6.jpg);
+    color: white;
+    padding: 92px 0;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+
+
+.quote:before {
+
+    content: ' " ';
+}
+
+.quote:after {
+
+    content: ' " ';
+}
+
+/* END CSS PHAN HOI */
+
+
+/* CSS TIN TUC HOME */
+.tintuchome .docthem {
+    margin-bottom: 20px;
+}
+
+.tintuchome span.number1 {
+    font-weight: bold;
+}
+
+.tintuchome a.rm.fontroboto {
+    list-style: none;
+}
+
+.mottinchuan.docthem {
+    border-top: 1px dashed #777;
+    padding-top: 10px;
+    height: 40px;
+    color: #777;
+}
+
+.tintuchome a.rm.fontroboto {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mottinchuan p.text1.fontroboto {
+    color: #777;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+
+.mottinchuan.thoigian1 {
+    font-size: 17px;
+    display: inline-block;
+    line-height: 24px;
+    font-family: 'Roboto Slab';
+    color: #777;
+    padding-bottom: 19px;
+}
+
+.mottinchuan a.tieudetin1.fontoswarld {
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    padding: 26px 0 12px 0;
+}
+
+.tintuchome img {
+    width: 100%;
+    height: auto;
+}
+
+.tintuchome h2.fontroboto {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 55px;
+}
+
+.tintuchome span.fontdancing {
+    color: #feb518;
+    font-size: 40px;
+}
+
+.tintuchome {
+    padding-bottom: 110px;
+}
+
+/* END CSS TIN TUC HOME */
+
+/* CSS FOOTER */
+
+.gioithieudaubep.wow.fadeInRight {
+    padding-bottom: 110px;
+}
+
+.footerbottom.text-xs-center.fontroboto {
+    font-size: 15px;
+    height: 91px;
+    color: #999;
+    line-height: 91px;
+    background: #111;
+}
+
+.footertop p {
+    font-family: 'Roboto Slab';
+}
+
+
+
+.footertop .col-sm-3.cotf3 {
+    font-family: 'Roboto Slab';
+}
+
+.footertop .col-sm-3.cotf2 {
+    font-family: 'Roboto Slab';
+}
+
+.footertop .col-sm-3.cotf1 {
+    font-family: 'Roboto Slab';
+}
+
+span.phai.float-sm-right {
+    padding-left: 10px;
+}
+
+span.trai.float-sm-left {
+    padding-right: 10px;
+}
+
+span.trai.float-sm-left,
+span.phai.float-sm-right {
+    border: 1px solid #151515;
+    background: #151515;
+    color: #a0a0a0;
+    font-family: 'Roboto Slab';
+}
+
+
+
+.footertop .khoithoigian {
+    border-bottom: 1px dashed;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+.cotf2 li,
+.cotf3 li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+
+.cotf2 a,
+.cotf3 a {
+    text-decoration: none;
+    color: #8f8d8d;
+}
+
+.footertop h2.tieudefooter {
+    font-size: 14px;
+    color: #ccc;
+    font-family: 'Roboto Slab';
+    position: relative;
+    padding-bottom: 65px;
+    top: 6px;
+}
+
+h2.tieudefooter:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
+    background: yellow;
+    top: 18px;
+    left: 2px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.footertop h2.tieudefooter:hover:after {
+    opacity: 1;
+    width: 80px;
+}
+
+.footertop .motdong {
+    overflow: hidden;
+    padding: 7px 9px;
+}
+
+.cotf1 i.fa {
+    padding-right: 20px;
+    float: left;
+    padding-top: 4px;
+    color: #d4d4d4;
+    font-size: 16px;
+}
+
+.footertop i.fa:hover {
+    color: #feb518;
+}
+
+.cotf1 i.fa.fa-paper-plane-o {
+    padding-bottom: 45px;
+}
+
+.footertop {
+    background: #151515;
+    color: white;
+    font-size: 14px;
+    color: #888;
+    width: 100%;
+    line-height: 24px;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+
+/* END CSS FOOTER */
+
+
+/* * CSS TRANG ABOUT * */
+.gioithieudaubep.wow.fadeInUp {
+    padding-bottom: 110px;
+    margin-top: -105px;
+}
+
+.badichvuabout h2.fontroboto {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.badichvuabout span.fontdancing {
+    color: #feb518;
+    font-size: 40px;
+}
+
+.badichvuabout img {
+    padding-left: 84px;
+}
+
+.thongtin2about p {
+    color: #777;
+    line-height: 24px;
+    font-family: 'Roboto Slab';
+    margin-bottom: 44px;
+    margin-top: 24px;
+}
+
+.thongtin2about h2.fontoswarld {
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #333;
+}
+
+.thongtin2about {
+    padding: 110px 0;
+}
+
+
+
+.thongtin2about span.fontdancing {
+    font-size: 31px;
+    color: #feb512;
+    font-weight: bold;
+}
+
+
+/* CSS MENU */
+.slidemonan.wow.fadeInUp {
+    margin-bottom: 200px;
+}
+
+/* END CSS MENU */
+
+/* CSS NEWS */
+
+button.iconsearch {
+    position: absolute;
+    top: 6px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+input.form-control.phansearchct {
+    position: relative;
+}
+
+.mottinchuan img {
+    width: 100%;
+    height: 100%;
+}
+
+.noidungtin .mottinchuan.wow.fadeInUp {
+    border-bottom: 1px dashed #333;
+    margin-bottom: 45px;
+}
+
+.mottinchuan .docthem {
+    padding-bottom: 40px;
+}
+
+.mottinchuan.mb-3 {
+    border-bottom: 1px dashed #333;
+}
+
+.mottinchuan span.vang {
+    color: #feb518;
+}
+
+.mottinchuan .thoigian1 {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+div#slidephanhoi {
+    padding-top: 2px;
+}
+
+.noidungtin a.rm.fontroboto {
+    color: #feb518;
+    text-decoration: none;
+}
+
+.badichvu a.readmore {
+    color: #feb518;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tdtintuchome h2.fontroboto {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 1.4em;
+}
+
+.tdtintuchome span.fontdancing {
+    font-size: 38px;
+    font-weight: 700;
+    color: #feb518;
+    line-height: 1.4em;
+}
+
+.thucdonctmenu .col-sm-12.text-xs-center {
+    padding: 20px 0;
+}
+
+.thucdonctmenu p.fontroboto.pmenu {
+    font-weight: 700;
+}
+
+.thucdonctmenu h3.fontdancing.h3menu {
+    color: #feb518;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.slidemonan.slidemonanmenu .col-sm-12.text-xs-center {
+    margin-top: -175px;
+}
+
+/* END CSS NEWS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.docthem.docthemcontact {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.docthem.docthemcontact:hover {
+    color: #feb518;
+}
+
+.lower-content ul,
+.lower-content li {
+    list-style: none;
+}
+
+.list-style-two li {
+    position: relative;
+    padding-left: 35px;
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 14px;
+}
+
+.list-style-two li i {
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    font-size: 18px;
+    color: #feb518;
+}
+
+ul.list-style-two {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+
+.lower-content {
+    position: relative;
+    padding-top: 10px;
+}
+
+.solugancontact span.fontroboto {
+    font-size: 32px;
+}
+
+.daubepcontact img {
+    height: 580px;
+    margin-top: 124px;
+}
+
+.daubepcontact button.btn.btn-block {
+    background: #333333;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    border: 2px solid #333333;
+    transition: 0.4s;
+}
+
+.daubepcontact button.btn.btn-block:hover {
+    color: #333333;
+    background: white;
+}
+
+.daubepcontact textarea.form-control.formcomment {
+    margin-bottom: 30px;
+}
+
+.daubepcontact .row {
+    width: 100%;
+    height: 100%;
+}
+
+nav.phantrang ul li.next a,
+nav.phantrang ul li.pre a {
+    width: 100px;
+}
+
+nav.phantrang ul li a,
+nav.phantrang ul li.current {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #eee;
+    text-align: center;
+    border-radius: 22px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav.phantrang ul li.current,
+nav.phantrang ul li a:hover {
+    color: white;
+    background: #feb512;
+    border-color: #feb512;
+}
+
+nav.phantrang ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav.phantrang {
+    text-align: center;
+}
+
+nav.phantrang ul.pagination {
+    list-style: none;
+}
+
+.newslist .tenmon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+.newslist .tren {
+    border-bottom: none;
+}
+
+.newslist img.img-fluid {
+    height: auto;
+    width: 100px;
+}
+
+.khoilistlink.my-2 {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.khoilistlink ul li a {
+    font-size: 14px;
+    color: #777;
+    line-height: 44px;
+}
+
+.khoilistlink ul {
+    margin-left: 18px;
+    color: #c2c3c5;
+    list-style: none;
+}
+
+.khoilistlink h3.fontroboto {
+    font-size: 18px;
+    line-height: 50px;
+    color: #333;
+}
+
 /* XU LY GIAO DIEN CHO DI DONG */
 @media (max-width:576px) {
     * {}
+
+
+
+    .daubepcontact ul.list-style-two {
+        text-align: center;
+    }
+
+    .daubepcontact .col-sm-7.push-sm-1 {
+        top: 100px;
+        left: 30px;
+    }
+
+    .daubepcontact .col-sm-4 {
+        left: 20px;
+    }
+
+
+
+    .noidungtin li.next,
+    .noidungtin li.pre {
+        float: left;
+    }
+
+    .khoimenu img.manhinhdt {
+        padding-left: 32px;
+    }
+
+
+
+    .badichvu .col-sm-4.wow.fadeInUp {
+        margin: 10px 0;
+    }
+
+    .badichvu.badichvuabout img {
+        padding-right: 86px;
+    }
+
+    .thongtin2about img {
+        width: 70%;
+        height: auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .thongtin2about a.btn.btn-warning {
+        margin: 40px 0px;
+    }
+
+    .footerbottom.text-xs-center.fontroboto {
+        margin-left: 0px;
+    }
+
+    .footertop .col-sm-3.cotf2,
+    .footertop .col-sm-3.cotf3,
+    .footertop .col-sm-3.cotf4 {
+        text-align: center;
+    }
+
+    .footertop h2.tieudefooter {
+        padding-bottom: 10px;
+    }
+
+    .footertop .motdong {
+        padding-bottom: 23px;
+    }
+
+    .footertop .motdong i.fa.fa-paper-plane-o {
+        margin-bottom: -24px;
+    }
+
+    .footertop p {
+        text-align: center;
+    }
+
+    .footertop {
+        padding-top: 50px;
+        margin-left: 0px;
+    }
+
+    .tintuchome {
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+
+    .khoiphanhoi b.fontdancing.nguoiviet {
+        font-size: 25px;
+    }
+
+    .khoiphanhoi ol.carousel-indicators {
+        display: none;
+    }
+
+    .khoiphanhoi {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+
+
+    .soluganhome {
+        padding: 80px 0;
+    }
+
+    .gioithieudaubep .daubepcontact {
+        text-align: center;
+    }
+
+    .gioithieudaubep .thongtin {
+        padding-top: 35px;
+        text-align: center;
+    }
 
     .slidemonan h4 {
         font-size: 20px;
@@ -613,8 +1450,6 @@ img.anhspslide {
         height: 25px;
         right: 40px;
     }
-
-    .slidemonan span.icon-prev {}
 
     .slidemonan .tencongthuc {
         font-size: 10px;
@@ -653,12 +1488,12 @@ img.anhspslide {
 
 
     .badichvu {
-        padding-top: 30px;
+        /* padding-top: 30px; */
         text-align: center;
     }
 
     .slide {
-        height: 380px;
+        height: 315px;
     }
 
     a.left.carousel-control,
